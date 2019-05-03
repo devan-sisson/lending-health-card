@@ -2,11 +2,15 @@
   "name": "lending-health-card",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://bardleware.github.io/lending-health-card",
+  "homepage": "https://devan-sisson.github.io/lending-health-card",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/devan-sisson/lending-health-card"
+  },
   "dependencies": {
     "gh-pages": "^2.0.0",
-    "react": "^16.5.2",
-    "react-dom": "^16.5.2",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
     "react-scripts": "^3.0.0",
     "styled-components": "^3.4.9"
   },
@@ -29,5 +33,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "jest-styled-components": "^6.3.1",
+    "react-test-renderer": "^16.8.6"
   }
 }

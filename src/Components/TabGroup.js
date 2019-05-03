@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const Group = styled.div`
+export const Group = styled.div`
   display: flex;
   flex: 1 1 100%;
   border: 1px solid #D0D2D6;
@@ -15,7 +15,7 @@ const Group = styled.div`
   }
 `
 
-const Tab = styled.div`
+export const Tab = styled.div`
   display: flex;
   align-self: stretch;
   flex-flow: row wrap;
@@ -41,17 +41,17 @@ const Tab = styled.div`
   }
 `
 
-const ActiveTab = styled(Tab)`
+export const ActiveTab = styled(Tab)`
   background: #D0D2D6;
 `
 
-const TabIcon = styled.img`
+export const TabIcon = styled.img`
   width: 24px;
   height: auto;
   margin: 8px auto;
 `
 
-const TabLabel = styled.span`
+export const TabLabel = styled.span`
   font-family: Roboto, Helvetica, sans-serif;
 `
 

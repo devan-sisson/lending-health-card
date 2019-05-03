@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 const RequirementContainer = styled.div`
   display: flex;
-  flex: 1 1 100%; 
+  flex: 1 1 100%;
   flex-wrap: wrap;
   border-top: 1px solid #D0D2D6;
   margin-top: 8px;
@@ -24,7 +24,7 @@ const RequirementLabel = styled.p`
 `
 
 const RequirementValue = styled(RequirementLabel)`
-  margin-right:24px;
+  margin-right: 24px;
   padding-left: 8px;
   margin-left: auto;
 `
